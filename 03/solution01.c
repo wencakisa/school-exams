@@ -5,7 +5,7 @@
 #define MAGIC_WORD "PanGalacticGargleBlaster"
 
 int is_lowercase(char);
-char to_uppercase(char*);
+char to_uppercase(char);
 void convert_to_uppercase(char*);
 int is_magical(char*);
 

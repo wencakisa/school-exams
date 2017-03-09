@@ -18,11 +18,7 @@ int main() {
 }
 
 int is_with_two_digits(int num) {
-    int result = 0;
-
-    for(; num > 0; result++, num /= 10);
-
-    return (result == 2);
+    return (num >= 10 && num <= 99);
 }
 
 int how_many_under_two_digits(int *arr) {

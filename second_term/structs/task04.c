@@ -109,7 +109,7 @@ int get_normal_game_winner(volleyball_game_t game) {
 }
 
 int is_tiebreak(int first_team_games, int second_team_games) {
-    return first_team_games == TIEBREAK_GAMES) && (second_team_games == first_team_games);
+    return (first_team_games == TIEBREAK_GAMES) && (second_team_games == first_team_games);
 }
 
 int get_tiebreak_game_winner(volleyball_game_t game) {
